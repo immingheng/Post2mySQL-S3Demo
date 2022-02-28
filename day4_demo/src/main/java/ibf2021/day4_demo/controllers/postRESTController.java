@@ -1,4 +1,4 @@
-package ibf2021.day4_demo.repositories;
+package ibf2021.day4_demo.controllers;
 
 import java.util.Optional;
 
@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import ibf2021.day4_demo.models.Post;
+import ibf2021.day4_demo.repositories.PostRepository;
 
 @RestController
 @RequestMapping(path = "/post")
